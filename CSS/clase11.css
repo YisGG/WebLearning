@@ -1,0 +1,46 @@
+/*
+
+    {   
+        list-style-type:                        The icon before an item in a list
+            disc
+            circle
+            square
+            decimal-leading-zero                like 01 02 03
+            upper/lower-latin                   like A B C D//a b c d
+        list-style-position:
+            inside
+            outside
+    }
+*/
+
+/*ul{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+ol{
+    list-style-type: decimal-leading-zero;
+}*/
+
+.menu{
+    width: 100%;
+    background: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+}
+
+.menu li a:hover{
+    background: #cccccc;
+    color: black;
+}
