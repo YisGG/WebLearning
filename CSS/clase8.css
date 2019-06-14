@@ -1,0 +1,44 @@
+/*
+    {
+        font-family:"font";                         Use a font in the container
+        font-family:"font1", "font2", "fontN";      Use the first font, is the user havent this font, then the user use the second font.....
+        font-weigth:
+            -bold
+            -normal
+            -X(numbrer)
+        text-align:                                 Only for block containers
+            -center
+            -left
+            -rigth
+            ....
+        line-heigth: X                              Size of the line 
+        text-decoration:                            Include a decoration in the text
+            -underlien
+            -none
+            -overline
+            -line-through
+        text-transform:
+            -capitalice
+            -uppercase
+            -lowecase
+            ....
+        letter-spacing: X
+        word-spacing: X
+        text-shadow: X Y Z Color
+    }
+*/
+
+h1{
+    font-weight: normal;
+    text-align: center;
+}
+
+p{
+    font-family: "Arial", "Verdana";
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
