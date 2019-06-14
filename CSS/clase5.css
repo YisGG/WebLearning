@@ -1,0 +1,20 @@
+/*
+    {
+        margin:                 Size out border 
+        margin: Y X             If use 2 numbers Y is the Y margin and X is the X margin
+        padding:                Size in border
+        border: X Y Z           Border of the blocks, X=size, Y=type Z=color
+        width                   Width of the tag/section/class/id(inside the padding)
+        display: type           Form of display the elements
+    }
+*/
+
+div{
+    background: orange;
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+    padding: 30px;
+    border: 10px solid black;
+    display: inline-block;
+}
