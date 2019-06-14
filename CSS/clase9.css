@@ -1,0 +1,46 @@
+/*
+    a:link                              links not visited previously
+    a:hover                             link when mouse over link
+    a:active                            when user click in link
+    a:visited                           links visited previously
+    { 
+        box-shadow X Y Z Color          create a shadow X horizontal, Y down, Z size and Color
+    }
+*/
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 20px 10px 0;
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    box-shadow: 5px 5px 0px #000000;
+}
+
+a:hover{
+    box-shadow: 2px 2px 0px #000000;
+}
+
+a:active{
+    box-shadow: none;
+}
+
+/*a:link {
+    color: #DF1338;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    background: black;
+    color: white;
+}
+
+a:active{
+    background: orange;
+}*/
