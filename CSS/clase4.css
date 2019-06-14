@@ -1,0 +1,12 @@
+/*
+    Colors:
+        -Hex RGB(#XXXXXX)
+        -keywords(red, black, white...)
+        -Decimal (rgb(R, G, B))
+            rbg() can use numers or %
+            rgba(R, G, B, O) O = Opacity
+*/
+
+h1{
+    color: rgb(53, 141, 44);
+}
