@@ -1,0 +1,28 @@
+/*
+    {
+        background: url(URL)            For use an image as a background
+        background-repeat:              For repeat image in the background
+            -no-repeat
+            -repeat-{x,y}
+        background-attacjment:          How background works with the scroll os the page
+            -fixed
+            -scroll
+        background-position: X Y        Offset in X and Y dimension
+            -center
+    } 
+*/
+
+body{
+    background: url(../Imagenes/github.png);
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+    background-position: center 0;
+}
+
+/*div{
+    background: url(../Imagenes/github.png);
+    height: 300px;
+    color: white;
+    background-repeat: no-repeat;
+}*/
