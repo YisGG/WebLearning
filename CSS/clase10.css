@@ -1,0 +1,21 @@
+/*
+    {
+        width//heigth               Affect the CSS over HTML
+        margin:auto;                Only affect to blocks container
+        border-radius: X            Round the border of the img(X can be px, % etx)
+    }
+*/
+
+div{
+    width: 95%
+}
+
+img{
+    width: 300px;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    /*box-shadow: 5px 5px 0px #424242;*/
+    padding: 5px;
+    border: 1px solid #cccccc;
+}
