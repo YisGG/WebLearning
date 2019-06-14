@@ -1,0 +1,14 @@
+/*
+    Comment line
+    CSS Rule:
+        target{
+            rule1;
+            rule2;
+            rulen;
+        }
+*/
+
+body{
+    background: #000000;
+    color: #ffffff;
+}
