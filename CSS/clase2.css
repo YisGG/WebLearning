@@ -1,0 +1,33 @@
+/*
+    *{rule}                 Universal selector
+    {
+        margin:     x;      Size out border 
+        padding:    x;      Size in border
+        font-size:  x;      Size of the words
+    }
+
+    tag{}                   Tag selector(all tags)
+    tag1,tag2,..,tagN{}     Multi-tag selector
+    tag1 tag2 .. tagN{}     Down-tag selector, affect all tagN inside of a tagN-1 inside of a tagN-2 ...... inside of a tag1
+    tag[attribute=X]{}      Select all tags with attribute like X
+    .class{}                Class selector
+    #id{}                   Id selector
+    You can combine all types of selectors
+*/
+
+h1, h2, h3, h4, h5, h6{
+    color:      red;
+}
+
+p a{
+    font-size:  30px;
+}
+
+.purple{
+    color:      purple;
+}
+
+a[href="https://www.google.es"]{
+    font-size:  30px;
+    color:      green;
+}
