@@ -1,0 +1,24 @@
+/*
+    Metric Units:
+        -Relative:
+            pixeles(px)
+            em  ==> 1em = tam of the nearest parent 
+            rem ==> Reverse em
+            %
+        -Absolute:
+            cm, in
+
+    {
+        width          Width of the tag/section/class/id(inside the padding)
+    }
+*/
+
+body{
+    font-size: 20px;
+}
+
+div{
+    background: black;
+    color: white;
+    width: 60%;
+}
